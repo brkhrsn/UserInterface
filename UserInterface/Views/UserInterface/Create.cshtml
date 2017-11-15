@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "New User";
+}
+
+<h2>New User</h2>
+<br />
+<form action="~/Views/UserInterface/Create" method="post">
+    <label>Name</label>
+    <br />
+    <input type="text" name="UserName" />
+    <br />
+    <label>Surname</label>
+    <br />
+    <input type="text" name="SurName" />
+    <br />
+    <label>Email</label>
+    <br />
+    <input type="text" name="Email" />
+    <br />
+    <label>Davet Email</label>
+    <br />
+    <input type="text" name="DavetEmail" />
+    <br />
+    <input type="submit" value="Register" />
+</form>
